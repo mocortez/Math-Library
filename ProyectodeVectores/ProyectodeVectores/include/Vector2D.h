@@ -79,7 +79,7 @@ public:
 	Vector2D Normalized() const {
 		float m = Magnitude();
 		if (m == 0.0f) return Vector2D(0, 0);
-		return Vector2D(m_x / m, m_x / m);
+		return Vector2D(m_x / m, m_y / m);
 	}
 
 	// OPERACIONES VECTORIALES

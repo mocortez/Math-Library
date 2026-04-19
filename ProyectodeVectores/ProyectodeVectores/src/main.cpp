@@ -85,7 +85,7 @@ int main()
     std::cout << "m4 * v4a = " << v4m.ToString() << "\n";
 
 	//MathUtils
-    std::cout << "\nMódulo de utilidades \n";
+    std::cout << "\nModulo de utilidades \n";
 
     std::cout << "Pow(2, 3) = " << MathUtils::Pow(2.0f, 3) << "\n";
     std::cout << "Sqrt(25) = " << MathUtils::Sqrt(25.0f) << "\n";
